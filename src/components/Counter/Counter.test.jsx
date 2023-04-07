@@ -4,6 +4,7 @@ import Counter from './Counter';
 describe('Counter', () => {
     it('should render a counter', () => {
         render(<Counter start={40} />);
+        screen.debug()
     });
 });
 
